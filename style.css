@@ -1,0 +1,156 @@
+body{
+    margin: 0 px;
+    background-color:rgb(2, 2, 29);
+}
+.navbar ul{
+ list-style-type: none;
+ background-color:pink;
+ padding: 10px;
+ margin: 0 px;
+ overflow:hidden;
+}
+h1{
+    text-align:centre;
+    color:bisque;
+}
+.navbar a{
+    color:black;
+    text-decoration:none;
+    padding: 15px;
+    display:block;
+    text-align : center;
+}
+.navbar a:hover{
+    background-color:rgb(245, 235, 240);
+}
+.navbar li{
+    float:left;
+}
+.para{
+    font-size:medium;
+    margin-left: 700px;
+    margin-right:50px;
+    margin-top: 150px;
+    font-style:monotype-corosiva;
+    color:rgb(245, 236, 236);
+}
+.images{
+    float: left;
+    margin-left:200px;
+    position:absolute;
+    top:150px;
+    bottom: 20px;
+    width: 5px;
+    height:5px;
+}
+.para2{
+    font-size:medium;
+    float:left;
+    margin-left:100px;
+    margin-top:200px;
+    font-style:monotype-corosiva;
+    color:rgb(250, 245, 245);
+}
+.img2{
+    float:right;
+    margin-left:700px;
+    background-size:cover;
+    top:300px;
+    bottom:50px;
+    position: absolute;
+}
+.skills{
+    color:rgb(238, 238, 228);
+    margin-top:350px;
+    margin-left:50px;
+}
+.others{
+    color:beige;
+    margin-top:200px;
+    margin-left:50px;
+}
+footer{
+    background:white;
+    padding:50px;
+    float:bottom;
+    margin-top:300px;
+    display:flex;
+}
+.container{
+    width: 500px;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+}
+.footer-content{
+    width:20px;
+}
+h2{
+    font-size:28px;
+}
+.foot-content p{
+    width:50px;
+    padding:7px;
+    margin-left:250px;
+}
+.foot-content ul{
+    text-align:center;
+    display:flex;
+    margin-left:300px
+}
+h3{
+    margin-left:300px;
+}
+.footer-contents{
+    width:30px;
+    float:left;
+    margin-left:400px;
+}
+.list{
+    padding:0;
+}
+.list li{
+    width:auto;
+    text-align:center;
+    list-style-type:none;
+    padding:7px;
+    position: relatives;
+}
+.list li::before{
+    content:'';
+    position:absolute;
+    transform: translate(-50%,-50%);
+    left:50%;
+    top:50%;
+    width:0;
+    height:2px;
+    background:orangered;
+}
+
+.list li:hover::before{
+    width:70px;
+}
+.social li{
+    display:inline-block;
+    text-align:center;
+    padding:5px;
+}
+.social  i{
+ color:black;
+a{
+    text-decoration:none;
+}
+a:hover{
+    color: orangered;
+}
+.social i:hover{
+    color:orangered;
+}
+.bottom-bar{
+    bottom:0px;
+}
+.skills{
+    color:beige;
+    margin-top:500px;
+    margin-left:50px;
+}
